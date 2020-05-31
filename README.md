@@ -1,4 +1,6 @@
 # WrapAttributes
+![test](https://github.com/tanmen/wrap_attributes/workflows/test/badge.svg)
+
 add '_attributes' suffix in rails 
 
 ## Usage

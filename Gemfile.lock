@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    wrap_attributes (0.1.0)
+    wrap_attributes (0.1.2)
       rails (~> 6.0.1)
 
 GEM
@@ -142,4 +142,4 @@ DEPENDENCIES
   wrap_attributes!
 
 BUNDLED WITH
-   1.17.3
+   2.1.4

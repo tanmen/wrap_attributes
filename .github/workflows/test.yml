@@ -1,0 +1,17 @@
+name: test
+
+on: push
+
+jobs:
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@master
+    - name: Set up Ruby
+      uses: actions/setup-ruby@v1
+      with:
+        version: 2.7.x
+    - run: sudo apt install libsqlite3-dev
+    - run: bundle install
+    - run: rake test
